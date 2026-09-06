@@ -4,8 +4,9 @@
 
 [![npm version](https://img.shields.io/npm/v/otp-catch.svg)](https://www.npmjs.com/package/otp-catch)
 [![minzipped size](https://img.shields.io/bundlephobia/minzip/otp-catch)](https://bundlephobia.com/package/otp-catch)
-[![license MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
-[![TypeScript](https://img.shields.io/badge/types-TypeScript-3178c6.svg)](./dist/index.d.ts)
+[![license MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/vishalmeena2211/otp-catch/blob/main/LICENSE)
+[![TypeScript](https://img.shields.io/badge/types-TypeScript-3178c6.svg)](https://github.com/vishalmeena2211/otp-catch/blob/main/src/index.ts)
+[![GitHub](https://img.shields.io/badge/GitHub-vishalmeena2211%2Fotp--catch-181717?logo=github)](https://github.com/vishalmeena2211/otp-catch)
 
 ```js
 // Before: the API exists, you call it, and nothing ever happens.
@@ -419,6 +420,13 @@ npm run typecheck
 
 The demo in `demo/index.html` loads `dist/index.global.js` — build once, then serve the folder
 (`npx serve .`) and open it. Serve it over HTTPS or `localhost` if you want to test the WebOTP path.
+
+## Links
+
+- **Repository** — [github.com/vishalmeena2211/otp-catch](https://github.com/vishalmeena2211/otp-catch)
+- **npm** — [npmjs.com/package/otp-catch](https://www.npmjs.com/package/otp-catch)
+- **Issues & feature requests** — [Report an issue](https://github.com/vishalmeena2211/otp-catch/issues)
+- **Changelog** — [releases](https://github.com/vishalmeena2211/otp-catch/releases)
 
 ## License
 
