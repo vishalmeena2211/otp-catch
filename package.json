@@ -1,0 +1,80 @@
+{
+  "name": "otp-catch",
+  "version": "0.1.0",
+  "description": "A one-time-passcode input that fills itself in: WebOTP done right, iOS QuickType, real paste handling, and the exact SMS body your backend must send.",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "unpkg": "./dist/index.global.js",
+  "jsdelivr": "./dist/index.global.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./react": {
+      "types": "./dist/react.d.ts",
+      "import": "./dist/react.js",
+      "require": "./dist/react.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit",
+    "test": "npm run build && node --test test/*.test.mjs",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "otp",
+    "otp-input",
+    "one-time-code",
+    "webotp",
+    "sms-autofill",
+    "otp-autofill",
+    "2fa",
+    "verification-code",
+    "pin-input",
+    "autocomplete-one-time-code",
+    "react-hooks",
+    "typescript"
+  ],
+  "author": "Vishal Meena <meenavishal2211@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishalmeena2211/otp-catch.git"
+  },
+  "homepage": "https://github.com/vishalmeena2211/otp-catch#readme",
+  "bugs": {
+    "url": "https://github.com/vishalmeena2211/otp-catch/issues"
+  },
+  "peerDependencies": {
+    "react": ">=17"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5.7.0",
+    "@types/react": "^19.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
